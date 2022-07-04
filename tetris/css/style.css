@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+ul{
+    list-style: none;
+}
+.game-text {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.426);
+    left: 0;
+    top: 0;
+    color: #fff;
+    font-size: 50px;
+}
+.game-text > button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: salmon;
+    border: none;
+    cursor: pointer;
+}
+
+.score{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+
+.playground > ul {
+    border: 1px solid #333;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.playground > ul > li {
+    width: 100%;
+    height: 25px;
+}
+
+.playground > ul > li > ul {
+    display: flex;
+}
+
+.playground > ul > li > ul > li{
+    width: 25px;
+    height: 25px;
+    outline: 1px solid #ccc;
+}
+
+.nextblockArea {
+    margin-bottom: 1rem;
+}
+.nextblockArea > ul {
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    margin: 0 auto;
+}
+
+.nextblockArea > ul > li {
+    width: 100%;
+    height: 25px;
+}
+
+.nextblockArea > ul > li > ul {
+    display: flex;
+}
+
+.nextblockArea > ul > li > ul > li{
+    width: 25px;
+    height: 25px;
+    outline: 1px solid #ccc;
+}
+
+.tree {
+    background: rgba(176, 105, 247, 1)
+ }
+.square {
+    background: rgba(248, 220, 56, 1)
+ }
+.bar {
+    background: rgba(19, 219, 230, 1)
+ }
+.zee {
+    background: rgba(235, 70, 93, 1)
+ }
+.elLeft {
+    background: rgba(248, 184, 58, 1)
+ }
+.elRight {
+    background: rgba(50, 168, 249, 1)
+ }
